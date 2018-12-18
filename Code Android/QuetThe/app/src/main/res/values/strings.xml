@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MobileCardCam</string>
+    <string name="share_using">Chia sẻ mã card</string>
+    <string name="title_activity_laucher">Laucher</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundhd"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtHuongDan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="- Di chuyển vùng mã số thẻ cào vừa khung màu xanh của camera :"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:text="- Đợi camera lấy nét và nhận diện mã số thẻ" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:text="- Bấm phím trở về trên điện thoại để quét lại" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:text="- Lưu ý: người dùng kiểm tra mã số thẻ và chỉnh sửa lại cho chính xác" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:text="----------***-----------"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+</LinearLayout>

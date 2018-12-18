@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/java_camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+            android:id="@+id/btnHuongDan"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/my_button"
+            android:text="Hướng dẫn"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light" />
+    <View
+        android:id="@+id/overlayRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_view" />
+
+    <View
+        android:id="@+id/overlayLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_view" />
+
+    <View
+        android:id="@+id/overlayBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_view" />
+
+    <View
+        android:id="@+id/overlayTop"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/background_view" />
+
+
+</RelativeLayout>
